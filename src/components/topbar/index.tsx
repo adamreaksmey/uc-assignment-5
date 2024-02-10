@@ -31,7 +31,7 @@ const TopBar = (): React.JSX.Element => {
 
   return (
     <nav
-      className={`py-2 px-6 fixed w-full top-0 z-10 transition-colors duration-400 ${
+      className={`py-2 px-6 fixed w-full top-0 z-20 transition-colors duration-400 ${
         isScrolled ? "bg-black text-white" : "bg-transparent text-black"
       }`}
     >
