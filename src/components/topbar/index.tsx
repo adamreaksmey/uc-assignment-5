@@ -18,12 +18,11 @@ const TopBar = (): React.JSX.Element => {
 
   return (
     <nav
-      className={`py-4 px-6 fixed w-full top-0 z-10 ${
+      className={`py-4 px-6 fixed w-full top-0 z-10 transition-colors duration-500 ${
         isScrolled ? "bg-black text-white" : "bg-white text-black"
       }`}
     >
       <div className="container mx-auto">
-        {/* Add your content for the top bar */}
         <div className="flex items-center justify-between">
           <a href="#" className="text-xl font-bold">
             My Store
