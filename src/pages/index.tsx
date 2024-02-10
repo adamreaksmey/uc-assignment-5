@@ -1,14 +1,12 @@
-import { Button } from "@nextui-org/react";
+import TopBar from "@/components/topbar";
 
-const homePage = () => {
+const HomePage = () => {
   return (
-    <>
-      <div className="main">
-        <div>Hello world</div>
-        <Button>CLICK ON ME</Button>
-      </div>
-    </>
+    <div className="main h-[2000px]">
+      <TopBar />
+      <div className="pt-16">Hello world</div> {/* Add padding top to account for the top bar */}
+    </div>
   );
 };
 
-export default homePage;
+export default HomePage;
